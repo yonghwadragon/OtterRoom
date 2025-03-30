@@ -1,0 +1,48 @@
+# Unity 자동 병합 툴 (Smart Merge) 사용 – 유니티에서 설정해야 작동함
+*.unity merge=unityyamlmerge eol=lf
+*.prefab merge=unityyamlmerge eol=lf
+*.asset merge=unityyamlmerge eol=lf
+*.mat merge=unityyamlmerge eol=lf
+
+# 텍스트 파일로 처리할 확장자들
+*.cs text
+*.shader text
+*.txt text
+*.json text
+*.xml text
+*.yml text
+*.yaml text
+*.md text
+*.asmdef text
+*.log text
+*.cginc text
+
+# 기본 줄바꿈 처리 – 운영체제에 맞게 자동 변환
+* text=auto
+
+# 바이너리 파일 – diff/merge 안함
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.psd binary
+*.fbx binary
+*.anim binary
+*.controller binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.mp4 binary
+*.mov binary
+*.webm binary
+*.dll binary
+*.exe binary
+*.zip binary
+*.rar binary
+*.7z binary
+*.unitypackage binary
+
+# Unity의 빌드 결과물 무시
+[Bb]uild*/ filter=lfs diff=lfs merge=lfs -text
+[Ll]ibrary*/ filter=lfs diff=lfs merge=lfs -text
+[Tt]emp*/ filter=lfs diff=lfs merge=lfs -text
