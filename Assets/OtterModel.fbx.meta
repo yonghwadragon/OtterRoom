@@ -1,14 +1,9 @@
 fileFormatVersion: 2
-guid: 925746cefe87ce840af22606ba1e8061
+guid: 27b463584625c794e8016fdb7f775bfa
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: texture_0
-    second: {fileID: 2800000, guid: 35b2b5a1361ab0b4785864fa46b34003, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -125,7 +120,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     globalScale: 1
-    rootMotionBoneName: 
+    rootMotionBoneName: Armature
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
